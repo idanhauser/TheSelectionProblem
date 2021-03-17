@@ -14,10 +14,14 @@ public:
 	~SelectionSolution();
 	int selectionWithInsertionSort();
 	int selectionWithSelect();
+	int selectionWithFifthAlgo();
+	int fifthAlgo(int size);
 	void copyArr();
 	int Select(int left, int right, int i);
 	void swapPositions(int* pFirst, int* pSecond);
 	int partition(int left, int right);
-
-
+	void bubbleSort(int size);
+	
 };
+
+
